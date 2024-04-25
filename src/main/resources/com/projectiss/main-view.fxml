@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="383.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projectiss.GUI.MainWindow">
+   <children>
+      <TableView fx:id="tableProduse" layoutX="44.0" layoutY="17.0" prefHeight="249.0" prefWidth="298.0">
+        <columns>
+          <TableColumn fx:id="colNumeProduse" prefWidth="114.19997787475586" text="Nume Produs" />
+          <TableColumn fx:id="colPretProduse" prefWidth="84.60000610351562" text="Pret/Bucata" />
+            <TableColumn fx:id="colStockProduse" prefWidth="98.60002136230469" text="Stock" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tableComanda" layoutX="445.0" layoutY="17.0" prefHeight="250.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="colNumeComanda" prefWidth="103.20001220703125" text="Nume Produs" />
+          <TableColumn fx:id="colCantitateComanda" prefWidth="96.0" text="Cantitate" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAdd" layoutX="59.0" layoutY="285.0" mnemonicParsing="false" text="Adauga in comanda" />
+      <Button fx:id="btnReset" layoutX="220.0" layoutY="285.0" mnemonicParsing="false" text="Reseteaza comanda" />
+      <Button fx:id="btnOrder" layoutX="488.0" layoutY="285.0" mnemonicParsing="false" text="Plaseaza comanda" />
+      <Button fx:id="btnRestock" layoutX="491.0" layoutY="324.0" mnemonicParsing="false" text="Comanda restock" />
+      <Spinner fx:id="spinnerBox" layoutX="131.0" layoutY="324.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="176.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projectiss.GUI.LogInWindow">
+   <children>
+      <TextField fx:id="txtUsername" layoutX="152.0" layoutY="36.0" />
+      <Label layoutX="73.0" layoutY="40.0" text="Username: " />
+      <Label layoutX="76.0" layoutY="81.0" text="Password:" />
+      <Button fx:id="btnLogin" layoutX="182.0" layoutY="115.0" mnemonicParsing="false" text="Login" />
+      <PasswordField fx:id="txtPassword" layoutX="152.0" layoutY="77.0" />
+   </children>
+</AnchorPane>
